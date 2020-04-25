@@ -1,0 +1,60 @@
+html {
+    font-family: 'Roboto';
+}
+
+.title {
+    font-size: 48px;
+    text-align: center;       
+}
+
+.employee {
+    font-size: 16px;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    transition: 0.25s all ease-in;
+}
+
+.employee:hover {
+    transform: scale(1.05);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto 0 auto;
+}
+
+.employee-data {
+    font-size: 16px;
+    display: block;
+    margin: 0 auto 0 auto;
+    padding: 10px;
+    border: none;
+    border-bottom: 3px solid black;
+    outline: none;
+    transition: 0.25s all ease-in;
+}
+
+.employee-data:hover {
+    border-bottom: 3px solid forestgreen;
+}
+
+.add-employee {
+    display: block;
+    margin: 15px auto;
+    font-size: 18px;
+    border: 3px solid black;
+    padding: 10px 15px;
+    outline: none;
+    transition: 0.25s all ease-in;
+}
+
+.add-employee:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    background-color: forestgreen;
+    color: white;
+    border-color: white;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+}
